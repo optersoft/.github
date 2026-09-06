@@ -1,30 +1,17 @@
 ## Optersoft, S.L.
 
-A product-focused software development studio in Barcelona.
+A product-focused software development studio in Barcelona. What we build and
+who we build it for is at [optersoft.com](https://optersoft.com).
 
-### Academy — [academy.optersoft.com](https://academy.optersoft.com)
+### Why this organization exists
 
-Teaching material for the Catalan and Spanish **CFGS** IT programmes —
-software development, systems administration and bioinformatics.
+Our code lives in three places, and each one is a deliberate choice:
 
-Around 1 900 pages, written in English and translated into Catalan and Spanish,
-covering Python, Rust, Kotlin, TypeScript, Linux, databases, cloud and molecular
-biology.
+| Where | What | Why |
+|---|---|---|
+| **GitHub** — here | Our **Python** tools, all open source | Public tooling needs what only a public forge offers: anonymous browsing, issues and pull requests from anyone, and CI that runs on a stranger's contribution. Every package here publishes to PyPI straight from GitHub Actions through OIDC trusted publishing, with no long-lived credentials anywhere. |
+| **[GitLab](https://gitlab.com/optersoft)** | **Academy** — the project repositories behind [academy.optersoft.com](https://academy.optersoft.com) | The runnable code for every lesson: clone it, run it, read the write-up. Grouped by track (Python, Rust, Kotlin, TypeScript, Linux, cloud, data, AI, bio). |
+| **Private forge** | Our products — **Rust**, fullstack | Internal code stays internal. Nothing of it is meant to be consumed outside our own fleet, so it lives on our own self-hosted forge. |
 
-What makes it unusual is the part that isn't tutorials: every lesson is placed
-against the **LOE/DOGC curriculum** — the module that teaches it, the activity,
-the learning outcomes (RA) and assessment criteria (CA) it works toward, and the
-hours allocated to it. That mapping is published as data, not prose.
-
-Cycles covered: **DAM**, **DAW**, **ASIX**, **DAW-BIO**, plus the *cursos
-d'especialització* in cybersecurity, AI & big data, and Python.
-
-Free to read, and published by Optersoft, S.L. — the same publisher the
-site's own structured data names, so an engine that cites it credits one entity.
-
-### Elsewhere
-
-- [optersoft.com](https://optersoft.com)
-- [GitLab](https://gitlab.com/optersoft)
-- [YouTube](https://www.youtube.com/@optersoft)
-- [LinkedIn](https://www.linkedin.com/company/optersoft)
+So, if it is Python and you can `pip install` it, it is here. If it is a lesson,
+it is on GitLab. Everything else is ours.
