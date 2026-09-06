@@ -1,7 +1,10 @@
 ## Optersoft, S.L.
 
-A product-focused software development studio in Barcelona. What we build and
-who we build it for is at [optersoft.com](https://optersoft.com).
+A software consultancy in Barcelona: we help companies start on new
+technology, train the teams that will own it, and build web applications in
+pure Python — and we prove it on products we run ourselves. What we do and who
+we are is at [optersoft.com](https://optersoft.com); the course material we
+teach from is at [academy.optersoft.com](https://academy.optersoft.com).
 
 ### Why this organization exists
 
